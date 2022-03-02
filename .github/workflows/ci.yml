@@ -15,6 +15,7 @@ jobs:
           PACKAGEJSON_DIR:  'lib'
         with:
           tag-prefix:  'v'
+          commit-message: 'CI: bumps version to {{version}} [skip ci]'
 
           # TODO: discord notify
           # NPM: publish
