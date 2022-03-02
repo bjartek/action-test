@@ -1,6 +1,6 @@
 {
     "name": "test-package-json",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "description": "Test package json",
     "main": "index.js",
     "scripts": {
