@@ -1,0 +1,20 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+    - name:  'Bump version'
+      uses:  'phips28/gh-action-bump-version@master'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PACKAGEJSON_DIR:  'lib'
+      with:
+        tag-prefix:  'v'
+
+          # TODO: discord notify
+          # NPM: publish
