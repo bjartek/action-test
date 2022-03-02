@@ -1,6 +1,6 @@
 {
     "name": "test-package-json",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Test package json",
     "main": "index.js",
     "scripts": {
@@ -16,7 +16,7 @@
     "author": "Bjarte Karlsen",
     "license": "MIT",
     "bugs": {
-			"url": "https://github.com/bjarte/action-test/issues"
+        "url": "https://github.com/bjarte/action-test/issues"
     },
-	 "homepage": "https://github.com/bjarte/action-test"
+    "homepage": "https://github.com/bjarte/action-test"
 }
